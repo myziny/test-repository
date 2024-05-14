@@ -1,5 +1,7 @@
 # draw.io GitHub Integration
 
+![Sample Diagram](https://github.com/myziny/test-repository/blob/main/Untitled%20Diagram.drawio.svg)
+
 Please read <a href="https://github.com/jgraph/drawio-integration" target="_blank">this</a> for a high-level introduction.
 
 GitHub support is now available https://app.diagrams.net/?mode=github
