@@ -1,17 +1,31 @@
-# draw.io 사용하기
-web으로 사용하기 https://draw.io  
-desktop으로 사용하기 https://github.com/jgraph/drawio-desktop/releases  
-vscode에서 사용하기 Extension설치 Draw.io Integration  
+# draw.io GitHub Integration
 
-https://github.com/KMN-Inc/drawio-github에 Fork해온 원본은 https://github.com/jgraph/drawio-github  
+Please read <a href="https://github.com/jgraph/drawio-integration" target="_blank">this</a> for a high-level introduction.
 
-github repository에서 issue를 활성화하기 위해서 Settings > Features의 Issues 체크  
-![Untitled Diagram drawio](https://github.com/myziny/test-repository/assets/18336065/b3656910-8cc0-482b-9852-64527a837c08)
+GitHub support is now available https://app.diagrams.net/?mode=github
 
-아래 이미지는 이미지 올린 link  
-![Untitled Diagram drawio](./Untitled Diagram.drawio.png)  
+An example for integration into GitHub wikis is available here: https://github.com/jgraph/drawio/wiki/Embed-Diagrams
 
-이미지를 올리는 방법은 issue창에 이미지파일을 드래그하면 됨  
-https://gist.github.com/NawalJAhmed/2168f7659c08b6a033e7f6daf8db69a6
+--
 
-![self-editing](https://github.com/myziny/test-repository/assets/18336065/21de9494-45fa-4a7a-92dd-26dd74a61313)
+![Diagram](http://jgraph.github.io/drawio-github/diagram.png)
+
+<a href="http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png" target="_blank">Edit</a> | <a href="https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjgraph%2Fdrawio-github%2Fmaster%2Fdiagram.png" target="_blank">Edit As New</a> | <a href="https://app.diagrams.net/#Hjgraph%2Fdrawio-github%2Fmaster%2Fdiagram.png" target="_blank">Edit with draw.io</a>
+
+<a href="http://jgraph.github.io/drawio-github/edit-diagram.html" target="_blank">edit-diagram.html</a> does the I/O with GitHub and uses draw.io in embed mode for diagram editing. The page supports the following URL parameters: user, pass, repo, path, ref and action=open (the Edit link above is an example). Using action=open, links for immediate diagram editing in GitHub can be created (requires user and pass parameters). You can also use files on GitHub as templates in draw.io via the url parameter (see Edit As New above).
+
+Supported file formats: .png, .svg, .html and .xml (default)
+
+## Dark Mode
+
+[SVG dark mode support](DARK-MODE.md)
+
+## Self-editing SVG file
+
+![Self-editing Diagram](http://jgraph.github.io/drawio-github/self-editing.svg)
+
+<a href="http://jgraph.github.io/drawio-github/self-editing.svg" target="_blank">self-editing.svg</a> is an SVG file with embedded PNG data (as a workaround for missing foreignObject support in Internet Explorer). This combines an image format (eg. for <img src="...") with scripting for GitHub integration. (Click on the link, not the image to enable editing.)
+
+## Self-editing HTML file
+
+<a href="http://jgraph.github.io/drawio-github/self-editing.html" target="_blank">self-editing.html</a> is a HTML file with embedded diagrams. The file uses nanocms.js for GitHub I/O and diagram editing, and Bootstrap and nanocms.css for some fancy CSS styles. HTML is used as a container for mutiple diagrams in different formats, including inline SVG with links.
