@@ -7,8 +7,6 @@ GitHub support is now available https://app.diagrams.net/?mode=github
 An example for integration into GitHub wikis is available here: https://github.com/jgraph/drawio/wiki/Embed-Diagrams
 
 --
-![test-00](https://github.com/myziny/test-repository/assets/18336065/7533f6c8-2d24-43ef-9fd1-b19fd1fb928d)
-<a href="https://github.com/myziny/test-repository/assets/18336065/7533f6c8-2d24-43ef-9fd1-b19fd1fb928d" target="_blank">Edit</a>
 
 ![Diagram](http://jgraph.github.io/drawio-github/diagram.png)
 
