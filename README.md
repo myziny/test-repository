@@ -30,4 +30,4 @@ Supported file formats: .png, .svg, .html and .xml (default)
 
 <a href="http://jgraph.github.io/drawio-github/self-editing.html" target="_blank">self-editing.html</a> is a HTML file with embedded diagrams. The file uses nanocms.js for GitHub I/O and diagram editing, and Bootstrap and nanocms.css for some fancy CSS styles. HTML is used as a container for mutiple diagrams in different formats, including inline SVG with links.
 
-https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&title=Untitled%20Diagram.drawio.svg#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fmyziny%2Ftest-repository%2Fmain%2FUntitled%2520Diagram.drawio.svg
+![Diagram](https://github.com/myziny/test-repository/blob/main/Untitled%20Diagram.drawio.svg)
