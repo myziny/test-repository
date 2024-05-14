@@ -14,3 +14,4 @@ github repository에서 issue를 활성화하기 위해서 Settings > Features�
 이미지를 올리는 방법은 issue창에 이미지파일을 드래그하면 됨  
 https://gist.github.com/NawalJAhmed/2168f7659c08b6a033e7f6daf8db69a6
 
+![self-editing](https://github.com/myziny/test-repository/assets/18336065/21de9494-45fa-4a7a-92dd-26dd74a61313)
