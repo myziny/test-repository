@@ -1,7 +1,7 @@
 # draw.io GitHub Integration
 
 ![Sample Diagram](https://github.com/myziny/test-repository/blob/main/Untitled%20Diagram.drawio.svg)
-<a href="https://app.diagrams.net/?src=about#Hmyziny%2Ftest-repository%2Fmain%2FUntitled%20Diagram.drawio.svg#%7B%22pageId%22%3A%22zerzWP8qo_dNtrRZIsrN%22%7D" target="_blank">Edit</a>
+<a href="[https://app.diagrams.net/?src=about#Hmyziny%2Ftest-repository%2Fmain%2FUntitled%20Diagram.drawio.svg#%7B%22pageId%22%3A%22zerzWP8qo_dNtrRZIsrN%22%7D" target="_blank](https://app.diagrams.net/?src=about/#HKMN-Inc/KMN-Inc-drawio-github/main/제목%20없는%20다이어그램.drawio.svg#%7B%22pageId%22%3A%22wFE0QG_FPsp0jaGvCLVb%22%7D")">Edit</a>
 <br><br>
 
 Please read <a href="https://github.com/jgraph/drawio-integration" target="_blank">this</a> for a high-level introduction.
